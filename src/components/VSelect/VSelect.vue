@@ -124,16 +124,18 @@
       },
       computedContentClass () {
         const children = [
+          'menu__content--select',
           this.auto ? 'menu__content--auto' : '',
           this.isDropdown ? 'menu__content--dropdown' : ''
         ]
 
         return children.join(' ')
       },
+      computedItems () {
+        return this.items
+      },
       filteredItems () {
-        const items = this.isAutocomplete && this.searchValue
-          ? this.filterSearch()
-          : this.items
+        const items = this.filterSearch()
 
         return !this.auto ? items.slice(0, this.lastItem) : items
       },
@@ -152,12 +154,17 @@
         },
         set (val) {
           this.lazySearch = val
-          val !== this.searchInput && this.$emit('update:searchInput', val)
+
+          // Do not emit input changes if not booted
+          val !== this.searchInput &&
+            this.isBooted &&
+            this.$emit('update:searchInput', val)
         }
       },
       selectedItems () {
-        if (this.inputValue === null ||
-          typeof this.inputValue === 'undefined') return []
+        if (!this.multiple &&
+          (this.inputValue === null ||
+          typeof this.inputValue === 'undefined')) return []
 
         return this.items.filter(i => {
           if (!this.multiple) {
@@ -174,11 +181,17 @@
 
     watch: {
       inputValue (val) {
+        // Async calls may not have data ready at boot
+        if (!this.multiple &&
+          this.isAutocomplete
+        ) this.searchValue = this.getText(val)
+
         this.$emit('input', val)
       },
       value (val) {
         this.inputValue = val
         this.validate()
+
         if (this.isAutocomplete) {
           this.$nextTick(this.$refs.menu.updateDimensions)
         }
@@ -187,8 +200,10 @@
         this.inputValue = val ? [] : null
       },
       isActive (val) {
+        this.focused = val
         this.isBooted = true
         this.lastItem += !val ? 20 : 0
+        this.resetSearch()
       },
       isBooted () {
         this.$nextTick(() => {
@@ -197,8 +212,26 @@
           }
         })
       },
+      items () {
+        if (this.focused && !this.isActive) this.isActive = true
+        this.$refs.menu.listIndex = -1
+
+        this.searchValue && this.$nextTick(() => {
+          this.$refs.menu.listIndex = 0
+        })
+      },
       searchValue (val) {
-        if (val && !this.isActive) this.isActive = true
+        // This could change externally
+        // avoid accidental re-activation
+        // when dealing with async items
+        if (!this.isActive &&
+          this.computedItems.length &&
+          val !== null &&
+          val !== this.getText(this.inputValue)
+        ) {
+          this.isActive = true
+          this.focused = true
+        }
         this.$refs.menu.listIndex = null
 
         this.$nextTick(() => {
@@ -212,6 +245,14 @@
         if (this._isDestroyed) return
 
         this.content = this.$refs.menu.$refs.content
+
+        // Set input text
+        if (this.isAutocomplete &&
+          !this.multiple &&
+          this.isDirty
+        ) {
+          this.searchValue = this.getText(this.inputValue)
+        }
       })
     },
 
@@ -226,16 +267,24 @@
     methods: {
       blur (e) {
         this.$nextTick(() => {
+          this.isActive = false
           this.focused = false
-          this.searchValue = null
+
+          this.resetSearch()
+
           this.$emit('blur', this.inputValue)
         })
       },
       focus (e) {
         this.focused = true
-        this.$refs.input &&
-          (this.isAutocomplete) &&
-          this.$refs.input.focus()
+        if (this.$refs.input && this.isAutocomplete) {
+          this.multiple &&
+            this.$refs.input.focus() ||
+            this.$refs.input.setSelectionRange(
+              0,
+              (this.searchValue || '').toString().length
+            )
+        }
 
         this.$emit('focus', e)
       },
@@ -282,6 +331,11 @@
           }
         }
       },
+      resetSearch () {
+        // Ensure searchValue is properly set
+        if (this.multiple || !this.isDirty) this.searchValue = null
+        else this.searchValue = this.getText(this.inputValue)
+        },
       selectItem (item) {
         if (!this.multiple) {
           this.inputValue = this.returnObject ? item : this.getValue(item)
@@ -302,9 +356,12 @@
             this.$refs.input &&
               this.$refs.input.focus()
           })
+        } else if (!this.multiple) {
+          this.blur()
         }
 
-        this.searchValue = null
+        if (this.multiple) this.searchValue = null
+
         this.$emit('change', this.inputValue)
       }
     },
@@ -318,7 +375,7 @@
         this.genMenu()
       ], {
         attrs: {
-          tabindex: this.isAutocomplete ? -1 : 0
+          tabindex: this.isAutocomplete || this.disabled ? -1 : 0
         },
         directives: [{
           name: 'click-outside',
@@ -330,8 +387,8 @@
         on: {
           ...listeners,
           focus: !this.isAutocomplete ? this.focus : this.onAutocompleteFocus,
-          blur: !this.isAutocomplete ? this.blur : () => {},
-          click: () => {
+          blur: !this.isAutocomplete && !this.multiple ? this.blur : () => {},
+          click: (e) => {
             if (!this.isActive) this.isActive = true
           },
           keydown: this.onKeyDown // Located in mixins/autocomplete.js
