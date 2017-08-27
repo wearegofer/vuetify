@@ -150,3 +150,50 @@ export function rafPolyfill(w) {
   if (!w.cancelAnimationFrame)  w.cancelAnimationFrame  = cancelRaf;
 
 }
+
+export function snapshotTests (component) {
+  const testDescription = 'Render component and match snapshot(s)'
+  const mountAndSnapshot = (component, context) => {
+    return () => {
+      const wrapper = mount(component, context)
+      expect(wrapper.html()).toMatchSnapshot()
+    }
+  }
+
+  function is (type, obj) {
+    const clas = Object.prototype.toString.call(obj).slice(8, -1)
+    return obj !== undefined && obj !== null && clas === type
+  }
+
+  if (component.functional) {
+    it(testDescription, mountAndSnapshot(component, functionalContext()))
+  } else {
+    describe(testDescription, () => {
+      const testMountAndSnapshot = (component, propName, value) => {
+        const context = {
+          propsData: {
+            [propName]: value
+          }
+        }
+
+        it(`${propName} - ${value}`, mountAndSnapshot(component, context))
+      }
+
+      it(`only defaults`, mountAndSnapshot(component, {}))
+
+      Object.keys(component.props).forEach((propName) => {
+        const propInstance = component.props[propName].type
+          ? component.props[propName].type()
+          : component.props[propName]()
+
+        if (is('Boolean', propInstance)) {
+          [false, true].forEach((value) => testMountAndSnapshot(component, propName, value))
+        } else if (is('String', propInstance)) {
+          const value = 'hello world'
+
+          testMountAndSnapshot(component, propName, value)
+        }
+      })
+    })
+  }
+}

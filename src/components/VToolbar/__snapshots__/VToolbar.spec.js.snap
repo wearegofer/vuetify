@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VToolbar Render component and match snapshot(s) absolute - false 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) absolute - true 1`] = `
+
+<nav class="toolbar toolbar--absolute">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) card - false 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) card - true 1`] = `
+
+<nav class="toolbar toolbar--card">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) dense - false 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) dense - true 1`] = `
+
+<nav class="toolbar toolbar--dense">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) extended - false 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) extended - true 1`] = `
+
+<nav class="toolbar toolbar--extended">
+  <div class="toolbar__content">
+  </div>
+  <div class="toolbar__extension">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) fixed - false 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) fixed - true 1`] = `
+
+<nav class="toolbar toolbar--fixed">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) flat - false 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) flat - true 1`] = `
+
+<nav class="toolbar elevation-0">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) floating - false 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) floating - true 1`] = `
+
+<nav class="toolbar toolbar--floating">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) only defaults 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) prominent - false 1`] = `
+
+<nav class="toolbar">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
+
+exports[`VToolbar Render component and match snapshot(s) prominent - true 1`] = `
+
+<nav class="toolbar toolbar--prominent">
+  <div class="toolbar__content">
+  </div>
+</nav>
+
+`;
