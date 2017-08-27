@@ -151,12 +151,28 @@ export function rafPolyfill(w) {
 
 }
 
-export function snapshotTests (component) {
+function UnsupportedPropType (message) {
+  this.message = message
+  this.name = 'UnsupportedPropType'
+}
+
+function PropHasNoType (message) {
+  this.message = message
+  this.name = 'PropHasNoType'
+}
+
+function PropIsNull (message) {
+  this.message = message
+  this.name = 'PropIsNull'
+}
+
+export function snapshotTests (component, options = {}) {
   const testDescription = 'Render component and match snapshot(s)'
   const mountAndSnapshot = (component, context) => {
     return () => {
       const wrapper = mount(component, context)
       expect(wrapper.html()).toMatchSnapshot()
+      options.willBeTipped && expect(options.willBeTipped).toHaveBeenTipped()
     }
   }
 
@@ -179,19 +195,77 @@ export function snapshotTests (component) {
         it(`${propName} - ${value}`, mountAndSnapshot(component, context))
       }
 
-      it(`only defaults`, mountAndSnapshot(component, {}))
-
-      Object.keys(component.props).forEach((propName) => {
-        const propInstance = component.props[propName].type
-          ? component.props[propName].type()
-          : component.props[propName]()
-
+      const testProperty = (component, propName, propInstance) => {
         if (is('Boolean', propInstance)) {
           [false, true].forEach((value) => testMountAndSnapshot(component, propName, value))
         } else if (is('String', propInstance)) {
-          const value = 'hello world'
+          switch (propName) {
+            case 'icon':
+              testMountAndSnapshot(component, propName, 'list')
+              break
+            case 'size':
+            case 'width':
+            case 'height':
+            case 'maxWidth':
+            case 'minWidth':
+            case 'maxHeight':
+            case 'minHeight':
+              testMountAndSnapshot(component, propName, '100px')
+              break
+            case 'zIndex':
+              testMountAndSnapshot(component, propName, '100')
+              break
+            case 'origin':
+              testMountAndSnapshot(component, propName, 'top right')
+              break
+            case 'transition':
+              testMountAndSnapshot(component, propName, 'dialog-transition')
+              break
+            default:
+              testMountAndSnapshot(component, propName, 'hello world')
+          }
+        } else if (is('Number', propInstance)) {
+          switch (propName) {
+            case 'size':
+            case 'width':
+            case 'height':
+            case 'zIndex':
+            default:
+              testMountAndSnapshot(component, propName, 100)
+          }
+        } else {
+          throw new UnsupportedPropType(`${propName} type is not supported: ${Object.prototype.toString.call(propInstance)}`)
+        }
+      }
 
-          testMountAndSnapshot(component, propName, value)
+      it(`only defaults`, mountAndSnapshot(component, {}))
+
+      Object.keys(component.props).forEach((propName) => {
+        // console.log(`${component.name}.${propName}`, component.props[propName])
+        if (component.props[propName] === null) {
+          throw new PropIsNull(`'${component.name}.${propName}' prop should not be set to 'null'.`)
+        } else
+        if (component.props[propName].type && is('Array', component.props[propName].type)) {
+          component.props[propName].type.forEach((propType) => {
+            const propInstance = propType()
+            testProperty(component, propName, propInstance)
+          })
+        } else
+        if (is('Array', component.props[propName])) {
+          component.props[propName].forEach((propType) => {
+            const propInstance = propType()
+            testProperty(component, propName, propInstance)
+          })
+        } else {
+          if (!component.props[propName].type && !is('Function', component.props[propName])) {
+            throw new PropHasNoType(`'${component.name}.${propName}' prop has no type defined. This can lead to unexpected behavior.`)
+          }
+
+          const propInstance = component.props[propName].type
+            ? component.props[propName].type()
+            : component.props[propName]()
+
+          testProperty(component, propName, propInstance)
         }
       })
     })
