@@ -67,12 +67,14 @@ theme(list, "list")
 
     &__title, &__sub-title
       white-space: nowrap
-      overflow-x: hidden
+      overflow: hidden
       text-overflow: ellipsis
       width: 100%
 
     &__title
       transition: $primary-transition
+      height: 24px
+      line-height: 24px
       position: relative
       text-align: left
 
@@ -253,8 +255,3 @@ theme(list, "list")
     .list__tile__avatar
       align-items: flex-start
       padding-top: 6px
-      
-
-  // IE11 Fix for overflow
-  .input-group--selection-controls__ripple
-    display: none
