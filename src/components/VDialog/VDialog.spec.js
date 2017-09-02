@@ -1,7 +1,11 @@
 import VDialog from '~components/VDialog'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VDialog.js', ({ mount }) => {
+  snapshotTests(VDialog, {
+    willBeTipped: 'Application is missing <v-app> component.'
+  })
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VDialog)
 

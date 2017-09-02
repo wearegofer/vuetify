@@ -1,8 +1,10 @@
 import VBottomNav from './VBottomNav'
 import VBtn from '../VBtn'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VBottomNav.js', ({ mount, functionalContext }) => {
+  snapshotTests(VBottomNav)
+
   it('should have a bottom-nav class', () => {
     const wrapper = mount(VBottomNav, {
       slots: {

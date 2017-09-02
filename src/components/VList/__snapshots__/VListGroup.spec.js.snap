@@ -1,8 +1,86 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VListGroup.js Render component and match snapshot(s) group - hello-world 1`] = `
+
+<div class="list--group__container">
+  <div class="list--group__header">
+  </div>
+  <ul class="list list--group"
+      style="display: none;"
+  >
+  </ul>
+</div>
+
+`;
+
+exports[`VListGroup.js Render component and match snapshot(s) lazy - false 1`] = `
+
+<div class="list--group__container">
+  <div class="list--group__header">
+  </div>
+  <ul class="list list--group"
+      style="display: none;"
+  >
+  </ul>
+</div>
+
+`;
+
+exports[`VListGroup.js Render component and match snapshot(s) lazy - true 1`] = `
+
+<div class="list--group__container">
+  <div class="list--group__header">
+  </div>
+  <ul class="list list--group"
+      style="display: none;"
+  >
+  </ul>
+</div>
+
+`;
+
+exports[`VListGroup.js Render component and match snapshot(s) noAction - false 1`] = `
+
+<div class="list--group__container">
+  <div class="list--group__header">
+  </div>
+  <ul class="list list--group"
+      style="display: none;"
+  >
+  </ul>
+</div>
+
+`;
+
+exports[`VListGroup.js Render component and match snapshot(s) noAction - true 1`] = `
+
+<div class="list--group__container">
+  <div class="list--group__header list--group__header--no-action">
+  </div>
+  <ul class="list list--group"
+      style="display: none;"
+  >
+  </ul>
+</div>
+
+`;
+
+exports[`VListGroup.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="list--group__container">
+  <div class="list--group__header">
+  </div>
+  <ul class="list list--group"
+      style="display: none;"
+  >
+  </ul>
+</div>
+
+`;
+
 exports[`VListGroup.js should render a component with no padding for action icon and match snapshot 1`] = `
 
-<ul data-uid="6"
+<ul data-uid="18"
     class="list"
 >
   <div class="list--group__container">
@@ -19,7 +97,7 @@ exports[`VListGroup.js should render a component with no padding for action icon
 
 exports[`VListGroup.js should render a component with route namespace and match snapshot 1`] = `
 
-<ul data-uid="9"
+<ul data-uid="21"
     class="list"
 >
   <div class="list--group__container">
@@ -36,7 +114,7 @@ exports[`VListGroup.js should render a component with route namespace and match 
 
 exports[`VListGroup.js should render a lazy component and match snapshot 1`] = `
 
-<ul data-uid="3"
+<ul data-uid="15"
     class="list"
 >
   <div class="list--group__container">
@@ -53,7 +131,7 @@ exports[`VListGroup.js should render a lazy component and match snapshot 1`] = `
 
 exports[`VListGroup.js should render component and match snapshot 1`] = `
 
-<ul data-uid="0"
+<ul data-uid="12"
     class="list"
 >
   <div class="list--group__container">

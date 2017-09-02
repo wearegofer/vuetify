@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VStepper Render component and match snapshot(s) altLabels - false 1`] = `
+
+<div class="stepper">
+</div>
+
+`;
+
+exports[`VStepper Render component and match snapshot(s) altLabels - true 1`] = `
+
+<div class="stepper stepper--alt-labels">
+</div>
+
+`;
+
+exports[`VStepper Render component and match snapshot(s) nonLinear - false 1`] = `
+
+<div class="stepper">
+</div>
+
+`;
+
+exports[`VStepper Render component and match snapshot(s) nonLinear - true 1`] = `
+
+<div class="stepper stepper--non-linear">
+</div>
+
+`;
+
+exports[`VStepper Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="stepper">
+</div>
+
+`;
+
+exports[`VStepper Render component and match snapshot(s) value - 100 1`] = `
+
+<div class="stepper">
+</div>
+
+`;
+
+exports[`VStepper Render component and match snapshot(s) value - hello-world 1`] = `
+
+<div class="stepper">
+</div>
+
+`;
+
+exports[`VStepper Render component and match snapshot(s) vertical - false 1`] = `
+
+<div class="stepper">
+</div>
+
+`;
+
+exports[`VStepper Render component and match snapshot(s) vertical - true 1`] = `
+
+<div class="stepper stepper--vertical">
+</div>
+
+`;

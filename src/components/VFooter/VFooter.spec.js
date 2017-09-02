@@ -1,7 +1,9 @@
-import { test } from '~util/testing'
-import VFooter from './VFooter'
+import { test, snapshotTests } from '~util/testing'
+import VFooter from '~components/VFooter'
 
 test('VFooter.js', ({ mount, functionalContext }) => {
+  snapshotTests(VFooter)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VFooter, functionalContext())
 

@@ -1,5 +1,257 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VTextField.js Render component and match snapshot(s) autoGrow - false 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) autoGrow - true 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) autofocus - false 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) autofocus - true 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           autofocus
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) box - false 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) box - true 1`] = `
+
+<div class="input-group input-group--text-field input-group--text-field-box">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) counter - 100 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+    <div class="input-group__counter">
+      0 / 100
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) counter - hello-world 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+    <div class="input-group__counter">
+      0 / 25
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) fullWidth - false 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) fullWidth - true 1`] = `
+
+<div class="input-group input-group--text-field input-group--full-width">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) multiLine - false 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) multiLine - true 1`] = `
+
+<div class="input-group input-group--text-field input-group--multi-line">
+  <div class="input-group__input">
+    <textarea tabindex="0"
+              rows="5"
+    >
+    </textarea>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="input-group input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) placeholder - hello-world 1`] = `
+
+<div class="input-group input-group--dirty input-group--placeholder input-group--text-field">
+  <div class="input-group__input">
+    <input tabindex="0"
+           placeholder="hello-world"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VTextField.js Render component and match snapshot(s) prefix - hello-world 1`] = `
+
+<div class="input-group input-group--text-field input-group--prefix">
+  <div class="input-group__input">
+    <span class="input-group--text-field__prefix">
+      hello-world
+    </span>
+    <input tabindex="0"
+           type="text"
+    >
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
 exports[`VTextField.js should render component and match snapshot 1`] = `
 
 <div class="input-group input-group--text-field">

@@ -1,7 +1,9 @@
 import VNavigationDrawer from '~components/VNavigationDrawer'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VNavigationDrawer.js', ({ mount }) => {
+  snapshotTests(VNavigationDrawer)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VNavigationDrawer)
 

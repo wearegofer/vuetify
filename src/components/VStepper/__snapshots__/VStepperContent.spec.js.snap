@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`vsteppercontent Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="stepper__content"
+     style="display: none;"
+>
+  <div class="stepper__wrapper">
+  </div>
+</div>
+
+`;
+
+exports[`vsteppercontent Render component and match snapshot(s) step - 100 1`] = `
+
+<div class="stepper__content"
+     style="display: none;"
+>
+  <div class="stepper__wrapper">
+  </div>
+</div>
+
+`;
+
+exports[`vsteppercontent Render component and match snapshot(s) step - hello-world 1`] = `
+
+<div class="stepper__content"
+     style="display: none;"
+>
+  <div class="stepper__wrapper">
+  </div>
+</div>
+
+`;

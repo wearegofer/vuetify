@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) expand - false 1`] = `
+
+<ul class="expansion-panel">
+</ul>
+
+`;
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) expand - true 1`] = `
+
+<ul class="expansion-panel">
+</ul>
+
+`;
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) focusable - false 1`] = `
+
+<ul class="expansion-panel">
+</ul>
+
+`;
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) focusable - true 1`] = `
+
+<ul class="expansion-panel expansion-panel--focusable">
+</ul>
+
+`;
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) inset - false 1`] = `
+
+<ul class="expansion-panel">
+</ul>
+
+`;
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) inset - true 1`] = `
+
+<ul class="expansion-panel expansion-panel--inset">
+</ul>
+
+`;
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) only defaults 1`] = `
+
+<ul class="expansion-panel">
+</ul>
+
+`;
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) popout - false 1`] = `
+
+<ul class="expansion-panel">
+</ul>
+
+`;
+
+exports[`VExpansionPanel.js Render component and match snapshot(s) popout - true 1`] = `
+
+<ul class="expansion-panel expansion-panel--popout">
+</ul>
+
+`;

@@ -1,7 +1,9 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VCard from '~components/VCard'
 
 test('VCard.js', ({ mount, functionalContext }) => {
+  snapshotTests(VCard)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VCard, functionalContext())
 

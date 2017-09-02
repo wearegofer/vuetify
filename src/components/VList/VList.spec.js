@@ -1,7 +1,9 @@
 import VList from '~components/VList'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VList.js', ({ mount }) => {
+  snapshotTests(VList)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VList)
 

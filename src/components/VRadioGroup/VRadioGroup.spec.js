@@ -1,7 +1,9 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import { VRadioGroup /*, VRadio */ } from '~components/VRadioGroup'
 
 test('VRadioGroup.vue', ({ mount }) => {
+  snapshotTests(VRadioGroup)
+
   it('should render role on radio group', () => {
     const wrapper = mount(VRadioGroup)
 

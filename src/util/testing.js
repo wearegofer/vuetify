@@ -169,6 +169,7 @@ function PropIsNull (message) {
 export function snapshotTests (component, options = {}) {
   const testDescription = 'Render component and match snapshot(s)'
   const mountAndSnapshot = (component, context) => {
+    // console.log(`mountAndSnapshot ${component.name} ${JSON.stringify(context)}`)
     return () => {
       const wrapper = mount(component, context)
       expect(wrapper.html()).toMatchSnapshot()
@@ -186,6 +187,7 @@ export function snapshotTests (component, options = {}) {
   } else {
     describe(testDescription, () => {
       const testMountAndSnapshot = (component, propName, value) => {
+        // console.log(`testMountAndSnapshot ${component.name}.${propName}`)
         const context = {
           propsData: {
             [propName]: value
@@ -196,6 +198,7 @@ export function snapshotTests (component, options = {}) {
       }
 
       const testProperty = (component, propName, propInstance) => {
+        // console.log(`testProperty ${component.name}.${propName}`)
         if (is('Boolean', propInstance)) {
           [false, true].forEach((value) => testMountAndSnapshot(component, propName, value))
         } else if (is('String', propInstance)) {
@@ -222,7 +225,7 @@ export function snapshotTests (component, options = {}) {
               testMountAndSnapshot(component, propName, 'dialog-transition')
               break
             default:
-              testMountAndSnapshot(component, propName, 'hello world')
+              testMountAndSnapshot(component, propName, 'hello-world')
           }
         } else if (is('Number', propInstance)) {
           switch (propName) {
@@ -240,7 +243,7 @@ export function snapshotTests (component, options = {}) {
 
       it(`only defaults`, mountAndSnapshot(component, {}))
 
-      Object.keys(component.props).forEach((propName) => {
+      component.props && Object.keys(component.props).forEach((propName) => {
         // console.log(`${component.name}.${propName}`, component.props[propName])
         if (component.props[propName] === null) {
           throw new PropIsNull(`'${component.name}.${propName}' prop should not be set to 'null'.`)

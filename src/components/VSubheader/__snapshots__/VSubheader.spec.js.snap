@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VSubheader Render component and match snapshot(s) 1`] = `
+
+<li class="subheader">
+</li>
+
+`;

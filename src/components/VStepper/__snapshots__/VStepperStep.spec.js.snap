@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VStepperStep Render component and match snapshot(s) complete - false 1`] = `
+
+<div class="stepper__step stepper__step--inactive">
+  <span class="stepper__step__step">
+  </span>
+  <div class="stepper__label">
+  </div>
+</div>
+
+`;
+
+exports[`VStepperStep Render component and match snapshot(s) complete - true 1`] = `
+
+<div class="stepper__step stepper__step--inactive stepper__step--complete">
+  <span class="stepper__step__step">
+    <i class="material-icons icon">
+      check
+    </i>
+  </span>
+  <div class="stepper__label">
+  </div>
+</div>
+
+`;
+
+exports[`VStepperStep Render component and match snapshot(s) completeIcon - hello-world 1`] = `
+
+<div class="stepper__step stepper__step--inactive">
+  <span class="stepper__step__step">
+  </span>
+  <div class="stepper__label">
+  </div>
+</div>
+
+`;
+
+exports[`VStepperStep Render component and match snapshot(s) editIcon - hello-world 1`] = `
+
+<div class="stepper__step stepper__step--inactive">
+  <span class="stepper__step__step">
+  </span>
+  <div class="stepper__label">
+  </div>
+</div>
+
+`;
+
+exports[`VStepperStep Render component and match snapshot(s) editable - false 1`] = `
+
+<div class="stepper__step stepper__step--inactive">
+  <span class="stepper__step__step">
+  </span>
+  <div class="stepper__label">
+  </div>
+</div>
+
+`;
+
+exports[`VStepperStep Render component and match snapshot(s) editable - true 1`] = `
+
+<div class="stepper__step stepper__step--editable stepper__step--inactive">
+  <span class="stepper__step__step">
+  </span>
+  <div class="stepper__label">
+  </div>
+</div>
+
+`;
+
+exports[`VStepperStep Render component and match snapshot(s) errorIcon - hello-world 1`] = `
+
+<div class="stepper__step stepper__step--inactive">
+  <span class="stepper__step__step">
+  </span>
+  <div class="stepper__label">
+  </div>
+</div>
+
+`;
+
+exports[`VStepperStep Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="stepper__step stepper__step--inactive">
+  <span class="stepper__step__step">
+  </span>
+  <div class="stepper__label">
+  </div>
+</div>
+
+`;

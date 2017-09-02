@@ -1,7 +1,9 @@
 import VDatePicker from '~components/VDatePicker'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VDatePicker.js', ({ mount }) => {
+  snapshotTests(VDatePicker)
+
   it('should display the correct date in title and header', () => {
     const wrapper = mount(VDatePicker, {
       propsData: {

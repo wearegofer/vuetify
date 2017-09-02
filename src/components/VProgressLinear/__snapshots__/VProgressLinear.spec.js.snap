@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VProgressLinear Render component and match snapshot(s) active - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar"
+       style="height: 0px;"
+  >
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) active - true 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) buffer - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) buffer - true 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) bufferValue - 100 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) colorBack - hello-world 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar hello-world">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) colorFront - hello-world 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate hello-world"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) error - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) error - true 1`] = `
+
+<div class="progress-linear progress-linear--error"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) height - 100 1`] = `
+
+<div class="progress-linear"
+     style="height: 100px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) height - 100px 1`] = `
+
+<div class="progress-linear">
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) indeterminate - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) indeterminate - true 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <div class="progress-linear__bar__indeterminate progress-linear__bar__indeterminate--active">
+      <div class="progress-linear__bar__indeterminate long">
+      </div>
+      <div class="progress-linear__bar__indeterminate short">
+      </div>
+    </div>
+    <!---->
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) info - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) info - true 1`] = `
+
+<div class="progress-linear progress-linear--info"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) query - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) query - true 1`] = `
+
+<div class="progress-linear progress-linear--query"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) secondary - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) secondary - true 1`] = `
+
+<div class="progress-linear progress-linear--secondary"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) success - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) success - true 1`] = `
+
+<div class="progress-linear progress-linear--success"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) value - 100 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 100%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) value - hello-world 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) warning - false 1`] = `
+
+<div class="progress-linear"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VProgressLinear Render component and match snapshot(s) warning - true 1`] = `
+
+<div class="progress-linear progress-linear--warning"
+     style="height: 7px;"
+>
+  <div class="progress-linear__bar">
+    <!---->
+    <div class="progress-linear__bar__determinate"
+         style="width: 0%;"
+    >
+    </div>
+  </div>
+</div>
+
+`;

@@ -1,5 +1,112 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VChip.js Render component and match snapshot(s) close - false 1`] = `
+
+<span tabindex="-1"
+      class="chip"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) close - true 1`] = `
+
+<span tabindex="-1"
+      class="chip chip--removable"
+>
+  <a class="chip__close"
+     href="javascript:;"
+  >
+    <v-icon>
+      cancel
+    </v-icon>
+  </a>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) label - false 1`] = `
+
+<span tabindex="-1"
+      class="chip"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) label - true 1`] = `
+
+<span tabindex="-1"
+      class="chip chip--label"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) only defaults 1`] = `
+
+<span tabindex="-1"
+      class="chip"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) outline - false 1`] = `
+
+<span tabindex="-1"
+      class="chip"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) outline - true 1`] = `
+
+<span tabindex="-1"
+      class="chip chip--outline"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) small - false 1`] = `
+
+<span tabindex="-1"
+      class="chip"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) small - true 1`] = `
+
+<span tabindex="-1"
+      class="chip chip--small"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) value - false 1`] = `
+
+<span tabindex="-1"
+      class="chip"
+      style="display: none;"
+>
+</span>
+
+`;
+
+exports[`VChip.js Render component and match snapshot(s) value - true 1`] = `
+
+<span tabindex="-1"
+      class="chip"
+>
+</span>
+
+`;
+
 exports[`VChip.js should have a chip class 1`] = `
 
 <span tabindex="-1"

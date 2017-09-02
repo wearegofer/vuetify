@@ -1,5 +1,252 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VMenu.js Render component and match snapshot(s) auto - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) auto - true 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: 200px; min-width: 16px; max-width: NaNpx; top: 12px; left: -15px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) bottom - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) bottom - true 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) disabled - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) disabled - true 1`] = `
+
+<div class="menu menu--disabled"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) fullWidth - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) fullWidth - true 1`] = `
+
+<div class="menu"
+     style="display: block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) left - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) left - true 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) offsetX - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) offsetX - true 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) offsetY - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) offsetY - true 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) right - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) right - true 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) top - false 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
+exports[`VMenu.js Render component and match snapshot(s) top - true 1`] = `
+
+<div class="menu"
+     style="display: inline-block;"
+>
+  <div class="menu__content"
+       style="max-height: auto; min-width: 0px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+  >
+  </div>
+</div>
+
+`;
+
 exports[`VMenu.js should render component with custom activator and match snapshot 1`] = `
 
 <div class="menu"

@@ -1,5 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VCard.js Render component and match snapshot(s) 1`] = `
+
+<div class="card"
+     style="height: auto;"
+>
+</div>
+
+`;
+
 exports[`VCard.js should render a card with custom height 1`] = `
 
 <div class="card"

@@ -1,7 +1,9 @@
 import VChip from '~components/VChip'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VChip.js', ({ mount }) => {
+  snapshotTests(VChip)
+
   it('should have a chip class', () => {
     const wrapper = mount(VChip)
 

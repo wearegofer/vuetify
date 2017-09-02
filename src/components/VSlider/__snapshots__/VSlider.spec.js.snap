@@ -1,6 +1,539 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Vslider.vue shoud work 1`] = `
+exports[`VSlider.vue Render component and match snapshot(s) inverted - false 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) inverted - true 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) max - 100 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) max - hello-world 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) min - 100 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) min - hello-world 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) only defaults 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) snap - false 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) snap - true 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) step - 100 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider input-group--ticks"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__ticks-container">
+        <span class="slider__tick"
+              style="left: 0%;"
+        >
+        </span>
+        <span class="slider__tick"
+              style="left: 100%;"
+        >
+        </span>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) step - hello-world 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider input-group--ticks"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__ticks-container">
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) thumbLabel - false 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) thumbLabel - true 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container slider__thumb-container--label"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+        <v-scale-transition>
+          <div class="slider__thumb--label__container"
+               style="display: none;"
+          >
+            <div class="slider__thumb--label">
+              <span>
+                NaN
+              </span>
+            </div>
+          </div>
+        </v-scale-transition>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) value - 100 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) value - hello-world 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) vertical - false 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue Render component and match snapshot(s) vertical - true 1`] = `
+
+<div role="slider"
+     tabindex="0"
+     class="input-group input-group--slider"
+>
+  <div class="input-group__input">
+    <div class="slider">
+      <div class="slider__track__container">
+        <div class="slider__track">
+        </div>
+        <div class="slider__track-fill">
+        </div>
+      </div>
+      <div class="slider__thumb-container"
+           style="left: 0%;"
+      >
+        <div class="slider__thumb">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSlider.vue shoud work 1`] = `
 
 <div role="slider"
      tabindex="0"

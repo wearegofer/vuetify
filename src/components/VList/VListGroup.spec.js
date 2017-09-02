@@ -1,7 +1,9 @@
 import { VList, VListGroup } from '~components/VList'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VListGroup.js', ({ mount }) => {
+  snapshotTests(VListGroup)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VList, {
       slots: {

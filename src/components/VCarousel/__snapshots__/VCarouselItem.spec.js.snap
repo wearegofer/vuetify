@@ -1,5 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VCarouselItem.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="carousel__item"
+     style="background-image: url(undefined); display: none;"
+>
+</div>
+
+`;
+
+exports[`VCarouselItem.js Render component and match snapshot(s) reverseTransition - hello-world 1`] = `
+
+<div class="carousel__item"
+     style="background-image: url(undefined); display: none;"
+>
+</div>
+
+`;
+
+exports[`VCarouselItem.js Render component and match snapshot(s) src - hello-world 1`] = `
+
+<div class="carousel__item"
+     style="background-image: url(hello-world); display: none;"
+>
+</div>
+
+`;
+
+exports[`VCarouselItem.js Render component and match snapshot(s) transition - dialog-transition 1`] = `
+
+<div class="carousel__item"
+     style="background-image: url(undefined); display: none;"
+>
+</div>
+
+`;
+
 exports[`VCarouselItem.js should render component and match snapshot 1`] = `
 
 <div class="carousel__item"

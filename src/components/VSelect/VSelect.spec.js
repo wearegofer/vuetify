@@ -1,7 +1,11 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VSelect from '~components/VSelect'
 
 test('VSelect.js', ({ mount, shallow }) => {
+  snapshotTests(VSelect, {
+    willBeTipped: 'Application is missing <v-app> component.'
+  })
+
   it('should return numeric 0', () => {
     const item = { value: 0, text: '0' }
     const wrapper = mount(VSelect, {

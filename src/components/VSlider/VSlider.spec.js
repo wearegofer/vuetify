@@ -1,9 +1,12 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VSlider from './VSlider'
 
 const warning = 'The v-slider component requires the present of v-app or a non-body wrapping element with the [data-app] attribute.'
+test('VSlider.vue', ({ mount }) => {
+  snapshotTests(VSlider, {
+    willBeTipped: warning
+  })
 
-test('Vslider.vue', ({ mount }) => {
   it('shoud work', () => {
     const wrapper = mount(VSlider)
 

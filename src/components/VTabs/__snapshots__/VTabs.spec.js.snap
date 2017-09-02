@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTabs Render component and match snapshot(s) centered - false 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) centered - true 1`] = `
+
+<div class="tabs tabs--centered tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) fixed - false 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) fixed - true 1`] = `
+
+<div class="tabs tabs--fixed tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) grow - false 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) grow - true 1`] = `
+
+<div class="tabs tabs--grow tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) icons - false 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) icons - true 1`] = `
+
+<div class="tabs tabs--icons tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) mobileBreakPoint - 100 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) mobileBreakPoint - hello-world 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) scrollable - false 1`] = `
+
+<div class="tabs">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) scrollable - true 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;
+
+exports[`VTabs Render component and match snapshot(s) value - hello-world 1`] = `
+
+<div class="tabs tabs--scroll-bars">
+</div>
+
+`;

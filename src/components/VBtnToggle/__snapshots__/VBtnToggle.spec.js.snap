@@ -1,6 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`VBtnToggle.vue should allow deselecting a value when mandatory prop is used with multiple prop 1`] = `
+exports[`VBtnToggle.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="btn-toggle">
+</div>
+
+`;
+
+exports[`VBtnToggle.js should allow deselecting a value when mandatory prop is used with multiple prop 1`] = `
 
 <div class="btn-toggle btn-toggle--selected">
   <button type="button"
@@ -36,43 +43,7 @@ exports[`VBtnToggle.vue should allow deselecting a value when mandatory prop is 
 
 `;
 
-exports[`VBtnToggle.vue should allow new value when mandatory prop is used 1`] = `
-
-<div class="btn-toggle btn-toggle--selected">
-  <button type="button"
-          class="btn btn--flat"
-  >
-    <div class="btn__content">
-      <i class="material-icons icon">
-        add
-      </i>
-    </div>
-  </button>
-  <button type="button"
-          class="btn btn--flat btn--active"
-          data-selected="true"
-          data-only-child="true"
-  >
-    <div class="btn__content">
-      <i class="material-icons icon">
-        add
-      </i>
-    </div>
-  </button>
-  <button type="button"
-          class="btn btn--flat"
-  >
-    <div class="btn__content">
-      <i class="material-icons icon">
-        add
-      </i>
-    </div>
-  </button>
-</div>
-
-`;
-
-exports[`VBtnToggle.vue should allow new value when mandatory prop is used with multiple prop 1`] = `
+exports[`VBtnToggle.js should allow new value when mandatory prop is used 1`] = `
 
 <div class="btn-toggle btn-toggle--selected">
   <button type="button"
@@ -108,43 +79,7 @@ exports[`VBtnToggle.vue should allow new value when mandatory prop is used with 
 
 `;
 
-exports[`VBtnToggle.vue should not allow empty value when mandatory prop is used 1`] = `
-
-<div class="btn-toggle btn-toggle--selected">
-  <button type="button"
-          class="btn btn--flat btn--active"
-          data-selected="true"
-          data-only-child="true"
-  >
-    <div class="btn__content">
-      <i class="material-icons icon">
-        add
-      </i>
-    </div>
-  </button>
-  <button type="button"
-          class="btn btn--flat"
-  >
-    <div class="btn__content">
-      <i class="material-icons icon">
-        add
-      </i>
-    </div>
-  </button>
-  <button type="button"
-          class="btn btn--flat"
-  >
-    <div class="btn__content">
-      <i class="material-icons icon">
-        add
-      </i>
-    </div>
-  </button>
-</div>
-
-`;
-
-exports[`VBtnToggle.vue should not allow empty value when mandatory prop is used with multiple prop 1`] = `
+exports[`VBtnToggle.js should allow new value when mandatory prop is used with multiple prop 1`] = `
 
 <div class="btn-toggle btn-toggle--selected">
   <button type="button"
@@ -180,7 +115,79 @@ exports[`VBtnToggle.vue should not allow empty value when mandatory prop is used
 
 `;
 
-exports[`VBtnToggle.vue should use button value attribute if available 1`] = `
+exports[`VBtnToggle.js should not allow empty value when mandatory prop is used 1`] = `
+
+<div class="btn-toggle btn-toggle--selected">
+  <button type="button"
+          class="btn btn--flat btn--active"
+          data-selected="true"
+          data-only-child="true"
+  >
+    <div class="btn__content">
+      <i class="material-icons icon">
+        add
+      </i>
+    </div>
+  </button>
+  <button type="button"
+          class="btn btn--flat"
+  >
+    <div class="btn__content">
+      <i class="material-icons icon">
+        add
+      </i>
+    </div>
+  </button>
+  <button type="button"
+          class="btn btn--flat"
+  >
+    <div class="btn__content">
+      <i class="material-icons icon">
+        add
+      </i>
+    </div>
+  </button>
+</div>
+
+`;
+
+exports[`VBtnToggle.js should not allow empty value when mandatory prop is used with multiple prop 1`] = `
+
+<div class="btn-toggle btn-toggle--selected">
+  <button type="button"
+          class="btn btn--flat"
+  >
+    <div class="btn__content">
+      <i class="material-icons icon">
+        add
+      </i>
+    </div>
+  </button>
+  <button type="button"
+          class="btn btn--flat btn--active"
+          data-selected="true"
+          data-only-child="true"
+  >
+    <div class="btn__content">
+      <i class="material-icons icon">
+        add
+      </i>
+    </div>
+  </button>
+  <button type="button"
+          class="btn btn--flat"
+  >
+    <div class="btn__content">
+      <i class="material-icons icon">
+        add
+      </i>
+    </div>
+  </button>
+</div>
+
+`;
+
+exports[`VBtnToggle.js should use button value attribute if available 1`] = `
 
 <div class="btn-toggle btn-toggle--selected">
   <button type="button"

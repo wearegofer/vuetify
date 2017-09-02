@@ -1,8 +1,7 @@
-import { mount } from 'avoriaz'
+import { test, snapshotTests } from '~util/testing'
 import VBtnToggle from './VBtnToggle'
 import VBtn from '../VBtn'
 import VIcon from '../VIcon'
-import { test } from '~util/testing'
 import Vue from 'vue/dist/vue.common'
 
 function createBtn (val = null) {
@@ -22,7 +21,9 @@ function createBtn (val = null) {
   })
 }
 
-test('VBtnToggle.vue', () => {
+test('VBtnToggle.js', ({ mount }) => {
+  snapshotTests(VBtnToggle)
+
   it('should not allow empty value when mandatory prop is used', () => {
     const wrapper = mount(VBtnToggle, {
       propsData: {

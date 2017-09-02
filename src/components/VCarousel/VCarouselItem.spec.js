@@ -1,9 +1,11 @@
-import { mount } from 'avoriaz'
+import { test, snapshotTests } from '~util/testing'
 import { VCarouselItem } from '~components/VCarousel'
 
 const imageSrc = 'https://vuetifyjs.com/static/doc-images/cards/sunshine.jpg'
 
-describe('VCarouselItem.js', () => {
+test('VCarouselItem.js', ({ mount }) => {
+  snapshotTests(VCarouselItem)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VCarouselItem, {
       propsData: {

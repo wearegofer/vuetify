@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VParallax.js Render component and match snapshot(s) height - 100 1`] = `
+
+<div class="parallax"
+     style="height: 100px;"
+>
+  <div class="parallax__image-container">
+    <img class="parallax__image"
+         style="display: block;"
+    >
+  </div>
+  <div class="parallax__content">
+  </div>
+</div>
+
+`;
+
+exports[`VParallax.js Render component and match snapshot(s) height - 100px 1`] = `
+
+<div class="parallax">
+  <div class="parallax__image-container">
+    <img class="parallax__image"
+         style="display: block;"
+    >
+  </div>
+  <div class="parallax__content">
+  </div>
+</div>
+
+`;
+
+exports[`VParallax.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="parallax"
+     style="height: 500px;"
+>
+  <div class="parallax__image-container">
+    <img class="parallax__image"
+         style="display: block;"
+    >
+  </div>
+  <div class="parallax__content">
+  </div>
+</div>
+
+`;
+
+exports[`VParallax.js Render component and match snapshot(s) src - hello-world 1`] = `
+
+<div class="parallax"
+     style="height: 500px;"
+>
+  <div class="parallax__image-container">
+    <img src="hello-world"
+         class="parallax__image"
+         style="display: block;"
+    >
+  </div>
+  <div class="parallax__content">
+  </div>
+</div>
+
+`;

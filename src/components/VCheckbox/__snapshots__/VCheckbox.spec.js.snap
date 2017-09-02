@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VCheckbox.js Render component and match snapshot(s) indeterminate - false 1`] = `
+
+<div role="checkbox"
+     aria-checked="false"
+     class="input-group checkbox input-group--selection-controls"
+>
+  <div class="input-group__input">
+    <i class="material-icons icon">
+      check_box_outline_blank
+    </i>
+    <div class="input-group--selection-controls__ripple">
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VCheckbox.js Render component and match snapshot(s) indeterminate - true 1`] = `
+
+<div role="checkbox"
+     aria-checked="mixed"
+     class="input-group checkbox input-group--selection-controls"
+>
+  <div class="input-group__input">
+    <i class="material-icons icon">
+      indeterminate_check_box
+    </i>
+    <div class="input-group--selection-controls__ripple">
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VCheckbox.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div role="checkbox"
+     aria-checked="false"
+     class="input-group checkbox input-group--selection-controls"
+>
+  <div class="input-group__input">
+    <i class="material-icons icon">
+      check_box_outline_blank
+    </i>
+    <div class="input-group--selection-controls__ripple">
+    </div>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;

@@ -1,7 +1,9 @@
 import VIcon from '~components/VIcon'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VIcon.js', ({ mount, functionalContext }) => {
+  snapshotTests(VIcon)
+
   it('should render component and match snapshot', () => {
     const context = functionalContext({}, 'add')
     const wrapper = mount(VIcon, context)

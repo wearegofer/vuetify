@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VBottomSheet Render component and match snapshot(s) inset - false 1`] = `
+
+<div class="dialog__container"
+     style="display: inline-block;"
+>
+  <div class="dialog__activator">
+  </div>
+  <div class="dialog__content">
+    <div class="dialog bottom-sheet"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VBottomSheet Render component and match snapshot(s) inset - true 1`] = `
+
+<div class="dialog__container"
+     style="display: inline-block;"
+>
+  <div class="dialog__activator">
+  </div>
+  <div class="dialog__content">
+    <div class="dialog bottom-sheet bottom-sheet--inset"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VBottomSheet Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="dialog__container"
+     style="display: inline-block;"
+>
+  <div class="dialog__activator">
+  </div>
+  <div class="dialog__content">
+    <div class="dialog bottom-sheet"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;

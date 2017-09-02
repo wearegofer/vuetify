@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import { mount } from 'avoriaz'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VTextField from '~components/VTextField'
 import VBtn from '~components/VBtn'
 import VForm from './VForm'
@@ -14,6 +14,8 @@ const inputOne = Vue.component('input-one', {
 })
 
 test('VForm.js', () => {
+  snapshotTests(VForm)
+
   it('test', () => {
     // eslint-disable-next-line
     const wrapper = mount(VForm, {

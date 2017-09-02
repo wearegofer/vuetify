@@ -1,8 +1,11 @@
-// import Vue from 'vue'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VDataTable from './VDataTable'
 
 test('VDataTable.js', ({ mount }) => {
+  snapshotTests(VDataTable, {
+    willBeTipped: 'Application is missing <v-app> component.'
+  })
+
   it('should be able to filter null and undefined values', async () => {
     const pagination = {
       descending: false,

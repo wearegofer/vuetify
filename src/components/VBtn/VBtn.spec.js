@@ -1,4 +1,4 @@
-import { mount } from 'avoriaz'
+import { test, snapshotTests } from '~util/testing'
 import Vue from 'vue/dist/vue.common'
 import VBtn from 'src/components/VBtn'
 
@@ -7,7 +7,9 @@ const stub = {
   render: h => h('button')
 }
 
-describe('VBtn.js', () => {
+test('VBtn.js', ({ mount }) => {
+  snapshotTests(VBtn)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VBtn)
 

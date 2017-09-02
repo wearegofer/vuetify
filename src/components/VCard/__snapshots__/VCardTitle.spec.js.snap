@@ -1,5 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VCardTitle.js Render component and match snapshot(s) 1`] = `
+
+<div class="card__title">
+</div>
+
+`;
+
 exports[`VCardTitle.js should render component and match snapshot 1`] = `
 
 <div class="card__title">

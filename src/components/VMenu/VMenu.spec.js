@@ -1,10 +1,14 @@
 import VBtn from '~components/VBtn'
 import VCard from '~components/VCard'
 import VMenu from '~components/VMenu'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 // eslint-disable-next-line
 test('VMenu.js', ({ mount }) => {
+  snapshotTests(VMenu, {
+    willBeTipped: 'Application is missing <v-app> component.'
+  })
+
   it('should work', async () => {
     const wrapper = mount(VMenu, {
       propsData: {

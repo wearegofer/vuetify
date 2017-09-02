@@ -1,8 +1,10 @@
 import VCarousel from '~components/VCarousel'
 import VCarouselItem from './VCarouselItem'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VCarousel.js', ({ mount }) => {
+  snapshotTests(VCarousel)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VCarousel)
 

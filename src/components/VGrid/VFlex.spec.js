@@ -1,9 +1,11 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import { VFlex } from '~components/VGrid'
 
 const id = 'flex'
 
 test('VFlex', ({ mount, functionalContext }) => {
+  snapshotTests(VFlex)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VFlex, functionalContext())
 

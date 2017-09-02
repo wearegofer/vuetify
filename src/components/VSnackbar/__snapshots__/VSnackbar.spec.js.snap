@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`VSnackbar.vue should have a snack class 1`] = `
+exports[`VSnackbar Render component and match snapshot(s) absolute - false 1`] = `
 
 <div class="snack snack--bottom">
   <!---->
@@ -8,7 +8,135 @@ exports[`VSnackbar.vue should have a snack class 1`] = `
 
 `;
 
-exports[`VSnackbar.vue should have a snack__content class only when active 1`] = `
+exports[`VSnackbar Render component and match snapshot(s) absolute - true 1`] = `
+
+<div class="snack snack--absolute snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) bottom - false 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) bottom - true 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) left - false 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) left - true 1`] = `
+
+<div class="snack snack--bottom snack--left">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) multiLine - false 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) multiLine - true 1`] = `
+
+<div class="snack snack--bottom snack--multi-line">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) right - false 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) right - true 1`] = `
+
+<div class="snack snack--bottom snack--right">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) timeout - 100 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) top - false 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) top - true 1`] = `
+
+<div class="snack snack--top">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) vertical - false 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar Render component and match snapshot(s) vertical - true 1`] = `
+
+<div class="snack snack--bottom snack--vertical">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar should have a snack class 1`] = `
+
+<div class="snack snack--bottom">
+  <!---->
+</div>
+
+`;
+
+exports[`VSnackbar should have a snack__content class only when active 1`] = `
 
 <div class="snack snack--active snack--bottom">
   <div class="snack__content slide-y-reverse-transition-enter slide-y-reverse-transition-enter-active"

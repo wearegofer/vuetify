@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VSystemBar Render component and match snapshot(s) 1`] = `
+
+<div class="system-bar">
+</div>
+
+`;

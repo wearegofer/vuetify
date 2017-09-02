@@ -1,7 +1,9 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import { /* VRadioGroup, */ VRadio } from '~components/VRadioGroup'
 
 test('VRadio.vue', ({ mount }) => {
+  snapshotTests(VRadio)
+
   it('should advise about v-radio-group being necessary', () => {
     mount(VRadio)
 

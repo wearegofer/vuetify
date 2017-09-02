@@ -1,5 +1,73 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VCardMedia.js Render component and match snapshot(s) contain - false 1`] = `
+
+<div class="card__media"
+     style="height: auto;"
+>
+  <div class="card__media__content">
+  </div>
+</div>
+
+`;
+
+exports[`VCardMedia.js Render component and match snapshot(s) contain - true 1`] = `
+
+<div class="card__media"
+     style="height: auto;"
+>
+  <div class="card__media__content">
+  </div>
+</div>
+
+`;
+
+exports[`VCardMedia.js Render component and match snapshot(s) height - 100 1`] = `
+
+<div class="card__media"
+     style="height: 100px;"
+>
+  <div class="card__media__content">
+  </div>
+</div>
+
+`;
+
+exports[`VCardMedia.js Render component and match snapshot(s) height - 100px 1`] = `
+
+<div class="card__media"
+     style="height: 100px;"
+>
+  <div class="card__media__content">
+  </div>
+</div>
+
+`;
+
+exports[`VCardMedia.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="card__media"
+     style="height: auto;"
+>
+  <div class="card__media__content">
+  </div>
+</div>
+
+`;
+
+exports[`VCardMedia.js Render component and match snapshot(s) src - hello-world 1`] = `
+
+<div class="card__media"
+     style="height: auto;"
+>
+  <div class="card__media__background">
+  </div>
+  <div class="card__media__content">
+  </div>
+</div>
+
+`;
+
 exports[`VCardMedia.js should render component and match snapshot 1`] = `
 
 <div class="card__media"

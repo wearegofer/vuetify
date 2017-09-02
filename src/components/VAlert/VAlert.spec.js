@@ -1,10 +1,12 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VAlert from '~components/VAlert'
 import VIcon from '~components/VIcon'
 
 VAlert.components = { VIcon }
 
 test('VAlert.vue', ({ mount }) => {
+  snapshotTests(VAlert)
+
   it('should have an alert class', () => {
     const wrapper = mount(VAlert)
 

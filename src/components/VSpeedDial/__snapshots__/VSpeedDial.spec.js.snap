@@ -1,5 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VSpeedDial.js Render component and match snapshot(s) direction - hello-world 1`] = `
+
+<div class="speed-dial speed-dial--direction-hello-world">
+  <div class="speed-dial__list">
+  </div>
+</div>
+
+`;
+
+exports[`VSpeedDial.js Render component and match snapshot(s) hover - false 1`] = `
+
+<div class="speed-dial speed-dial--direction-top">
+  <div class="speed-dial__list">
+  </div>
+</div>
+
+`;
+
+exports[`VSpeedDial.js Render component and match snapshot(s) hover - true 1`] = `
+
+<div class="speed-dial speed-dial--direction-top">
+  <div class="speed-dial__list">
+  </div>
+</div>
+
+`;
+
+exports[`VSpeedDial.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="speed-dial speed-dial--direction-top">
+  <div class="speed-dial__list">
+  </div>
+</div>
+
+`;
+
+exports[`VSpeedDial.js Render component and match snapshot(s) transition - dialog-transition 1`] = `
+
+<div class="speed-dial speed-dial--direction-top">
+  <div class="speed-dial__list">
+  </div>
+</div>
+
+`;
+
 exports[`VSpeedDial.js should render component and match snapshot 1`] = `
 
 <div class="speed-dial speed-dial--direction-top">

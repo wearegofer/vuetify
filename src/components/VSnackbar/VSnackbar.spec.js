@@ -1,7 +1,8 @@
-import { mount } from 'avoriaz'
+import { test, snapshotTests } from '~util/testing'
 import VSnackbar from '~components/VSnackbar'
 
-describe('VSnackbar.vue', () => {
+test('VSnackbar', ({ mount }) => {
+  snapshotTests(VSnackbar)
   it('should have a snack class', () => {
     const wrapper = mount(VSnackbar)
 

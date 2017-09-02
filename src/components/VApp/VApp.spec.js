@@ -1,7 +1,9 @@
 import VApp from '~components/VApp'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VApp.js', ({ mount }) => {
+  snapshotTests(VApp)
+
   it('should have an application class', () => {
     const wrapper = mount(VApp)
 

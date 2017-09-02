@@ -1,7 +1,9 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VPagination from './VPagination'
 
 test('VPagination.vue', ({ mount }) => {
+  snapshotTests(VPagination)
+
   it('emits an event when next or previous is clicked', async () => {
     jest.useFakeTimers()
     const wrapper = mount(VPagination, {

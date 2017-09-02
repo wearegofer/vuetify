@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VForm.js Render component and match snapshot(s) only defaults 1`] = `
+
+<form>
+</form>
+
+`;
+
+exports[`VForm.js Render component and match snapshot(s) value - false 1`] = `
+
+<form>
+</form>
+
+`;
+
+exports[`VForm.js Render component and match snapshot(s) value - true 1`] = `
+
+<form>
+</form>
+
+`;

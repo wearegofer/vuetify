@@ -1,5 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VFooter.js Render component and match snapshot(s) 1`] = `
+
+<footer class="footer">
+</footer>
+
+`;
+
 exports[`VFooter.js should render a fixed and absolute positioned and match snapshot 1`] = `
 
 <footer class="footer">

@@ -1,5 +1,85 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VApp.js Render component and match snapshot(s) fixedFooter - false 1`] = `
+
+<div data-app="true"
+     class="application application--light"
+     id="app"
+>
+</div>
+
+`;
+
+exports[`VApp.js Render component and match snapshot(s) fixedFooter - true 1`] = `
+
+<div data-app="true"
+     class="application application--light application--footer application--footer-fixed"
+     id="app"
+>
+</div>
+
+`;
+
+exports[`VApp.js Render component and match snapshot(s) footer - false 1`] = `
+
+<div data-app="true"
+     class="application application--light"
+     id="app"
+>
+</div>
+
+`;
+
+exports[`VApp.js Render component and match snapshot(s) footer - true 1`] = `
+
+<div data-app="true"
+     class="application application--light application--footer"
+     id="app"
+>
+</div>
+
+`;
+
+exports[`VApp.js Render component and match snapshot(s) id - hello-world 1`] = `
+
+<div data-app="true"
+     class="application application--light"
+     id="hello-world"
+>
+</div>
+
+`;
+
+exports[`VApp.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div data-app="true"
+     class="application application--light"
+     id="app"
+>
+</div>
+
+`;
+
+exports[`VApp.js Render component and match snapshot(s) toolbar - false 1`] = `
+
+<div data-app="true"
+     class="application application--light"
+     id="app"
+>
+</div>
+
+`;
+
+exports[`VApp.js Render component and match snapshot(s) toolbar - true 1`] = `
+
+<div data-app="true"
+     class="application application--light application--toolbar"
+     id="app"
+>
+</div>
+
+`;
+
 exports[`VApp.js should allow a custom id 1`] = `
 
 <div data-app="true"

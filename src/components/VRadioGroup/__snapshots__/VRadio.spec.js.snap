@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VRadio.vue Render component and match snapshot(s) disabled - false 1`] = `
+
+<div role="radio"
+     aria-checked="false"
+     class="input-group input-group--selection-controls radio"
+>
+  <label>
+  </label>
+  <div class="input-group__input">
+    <i class="material-icons icon">
+      radio_button_unchecked
+    </i>
+    <div class="input-group--selection-controls__ripple">
+    </div>
+    <input name="test"
+           type="radio"
+           style="display: none;"
+    >
+  </div>
+</div>
+
+`;
+
+exports[`VRadio.vue Render component and match snapshot(s) disabled - true 1`] = `
+
+<div role="radio"
+     aria-checked="false"
+     class="input-group input-group--selection-controls radio"
+>
+  <label>
+  </label>
+  <div class="input-group__input">
+    <i class="material-icons icon">
+      radio_button_unchecked
+    </i>
+    <div class="input-group--selection-controls__ripple">
+    </div>
+    <input name="test"
+           type="radio"
+           style="display: none;"
+    >
+  </div>
+</div>
+
+`;
+
+exports[`VRadio.vue Render component and match snapshot(s) only defaults 1`] = `
+
+<div role="radio"
+     aria-checked="false"
+     class="input-group input-group--selection-controls radio"
+>
+  <label>
+  </label>
+  <div class="input-group__input">
+    <i class="material-icons icon">
+      radio_button_unchecked
+    </i>
+    <div class="input-group--selection-controls__ripple">
+    </div>
+    <input name="test"
+           type="radio"
+           style="display: none;"
+    >
+  </div>
+</div>
+
+`;

@@ -1,7 +1,9 @@
 import VSpeedDial from '~components/VSpeedDial'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VSpeedDial.js', ({ mount }) => {
+  snapshotTests(VSpeedDial)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VSpeedDial)
 

@@ -1,5 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VListTile.vue Render component and match snapshot(s) activeClass - hello-world 1`] = `
+
+<li>
+  <div href="javascript:;"
+       class="list__tile"
+  >
+  </div>
+</li>
+
+`;
+
+exports[`VListTile.vue Render component and match snapshot(s) avatar - false 1`] = `
+
+<li>
+  <div href="javascript:;"
+       class="list__tile"
+  >
+  </div>
+</li>
+
+`;
+
+exports[`VListTile.vue Render component and match snapshot(s) avatar - true 1`] = `
+
+<li>
+  <div href="javascript:;"
+       class="list__tile list__tile--avatar"
+  >
+  </div>
+</li>
+
+`;
+
+exports[`VListTile.vue Render component and match snapshot(s) only defaults 1`] = `
+
+<li>
+  <div href="javascript:;"
+       class="list__tile"
+  >
+  </div>
+</li>
+
+`;
+
+exports[`VListTile.vue Render component and match snapshot(s) tag - hello-world 1`] = `
+
+<li>
+  <hello-world class="list__tile">
+  </hello-world>
+</li>
+
+`;
+
 exports[`VListTile.vue should render <li> with <a> when using href prop 1`] = `
 
 <li>

@@ -1,9 +1,9 @@
-import { test } from '~util/testing'
-/*
-import VExpansionPanelContent from './VExpansionPanelContent'
-*/
+import { test, snapshotTests } from '~util/testing'
+import VExpansionPanelContent from '~components/VExpansionPanelContent'
 
 test('VExpansionPanelContent.js', ({ mount }) => {
+  snapshotTests(VExpansionPanelContent)
+
   // Fix when next Vue release is out
   it('should render component and match snapshot', () => {
   //   const wrapper = mount(VExpansionPanelContent)

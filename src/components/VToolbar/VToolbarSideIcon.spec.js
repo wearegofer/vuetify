@@ -1,8 +1,10 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VIcon from '~components/VIcon'
 import { VToolbarSideIcon } from '~components/VToolbar'
 
 test('VToolbarSideIcon.js', ({ mount, functionalContext }) => {
+  snapshotTests(VToolbarSideIcon)
+
   it('should create default icon when no slot used', () => {
     const context = functionalContext()
     const wrapper = mount(VToolbarSideIcon, context)

@@ -1,5 +1,657 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VSelect.js Render component and match snapshot(s) appendIcon - hello-world 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="9"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="hello icon hello-world input-group__append-icon">
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) auto - false 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="15"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) auto - true 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select input-group--auto"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select menu__content--auto"
+           style="max-height: 200px; min-width: 40px; max-width: NaNpx; top: 12px; left: -15px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="21"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) autocomplete - false 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="27"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) autocomplete - true 1`] = `
+
+<div tabindex="-1"
+     class="input-group input-group--append-icon input-group--text-field input-group--select input-group--autocomplete"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+      <input tabindex="0"
+             class="input-group--select__autocomplete"
+      >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="33"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) bottom - false 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="39"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) bottom - true 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="45"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) chips - false 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="51"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) chips - true 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select input-group--chips"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="57"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) close - false 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="63"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) close - true 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="69"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) debounce - 100 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="75"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VSelect.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div tabindex="0"
+     class="input-group input-group--append-icon input-group--text-field input-group--select"
+>
+  <div class="input-group__input">
+    <div class="input-group__selections"
+         style="overflow: hidden;"
+    >
+    </div>
+    <div class="menu"
+         style="display: inline-block;"
+    >
+      <div class="menu__content menu__content--select"
+           style="max-height: 300px; min-width: 24px; max-width: NaNpx; top: 12px; left: 0px; z-index: 6; display: none;"
+      >
+        <div class="card"
+             style="height: auto;"
+        >
+          <ul data-uid="3"
+              class="list"
+          >
+            <li disabled="disabled">
+              <div disabled="disabled"
+                   href="javascript:;"
+                   class="list__tile list__tile--link list__tile--disabled"
+              >
+                <div class="list__tile__content">
+                  <div class="list__tile__title">
+                    No data available
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <i class="material-icons icon input-group__append-icon">
+      arrow_drop_down
+    </i>
+  </div>
+  <div class="input-group__details">
+    <div class="input-group__messages">
+    </div>
+  </div>
+</div>
+
+`;
+
 exports[`VSelect.js should have -1 tabindex when disabled 1`] = `
 
 <div tabindex="-1"
@@ -22,7 +674,7 @@ exports[`VSelect.js should have -1 tabindex when disabled 1`] = `
         <div class="card"
              style="height: auto;"
         >
-          <ul data-uid="26"
+          <ul data-uid="104"
               class="list"
           >
             <li disabled="disabled">

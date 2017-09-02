@@ -1,5 +1,290 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VDialog.js Render component and match snapshot(s) disabled - false 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) disabled - true 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) fullWidth - false 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) fullWidth - true 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) fullscreen - false 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) fullscreen - true 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog dialog--fullscreen"
+         style="display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) lazy - false 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) lazy - true 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) origin - top right 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) persistent - false 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) persistent - true 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog dialog--persistent"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) scrollable - false 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) scrollable - true 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog dialog--scrollable"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) transition - dialog-transition 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) transition - false 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) transition - true 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 290px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) width - 100 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 100px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
+exports[`VDialog.js Render component and match snapshot(s) width - 100px 1`] = `
+
+<div class="dialog__container"
+     style="display: block;"
+>
+  <div class="dialog__content">
+    <div class="dialog"
+         style="width: 100px; display: none;"
+    >
+    </div>
+  </div>
+</div>
+
+`;
+
 exports[`VDialog.js should render a disabled component and match snapshot 1`] = `
 
 <div class="dialog__container"

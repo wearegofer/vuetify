@@ -1,7 +1,9 @@
-﻿import { test } from '~util/testing'
+﻿import { test, snapshotTests } from '~util/testing'
 import VCheckbox from '~components/VCheckbox'
 
 test('VCheckbox.js', ({ mount }) => {
+  snapshotTests(VCheckbox)
+
   it('should return true when clicked', () => {
     const wrapper = mount(VCheckbox, {
       propsData: {

@@ -1,5 +1,277 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VPagination.vue Render component and match snapshot(s) circle - false 1`] = `
+
+<ul class="pagination">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation pagination__navigation--disabled"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) circle - true 1`] = `
+
+<ul class="pagination pagination--circle">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation pagination__navigation--disabled"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) disabled - false 1`] = `
+
+<ul class="pagination">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation pagination__navigation--disabled"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) disabled - true 1`] = `
+
+<ul class="pagination pagination--disabled">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation pagination__navigation--disabled"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) length - 100 1`] = `
+
+<ul class="pagination">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__item"
+    >
+      1
+    </a>
+  </li>
+  <li>
+    <span class="pagination__more">
+      ...
+    </span>
+  </li>
+  <li>
+    <span class="pagination__more">
+      ...
+    </span>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__item"
+    >
+      100
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) nextIcon - hello-world 1`] = `
+
+<ul class="pagination">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation pagination__navigation--disabled"
+    >
+      <i class="hello icon hello-world">
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) only defaults 1`] = `
+
+<ul class="pagination">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation pagination__navigation--disabled"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) prevIcon - hello-world 1`] = `
+
+<ul class="pagination">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="hello icon hello-world">
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation pagination__navigation--disabled"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) totalVisible - 100 1`] = `
+
+<ul class="pagination">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation pagination__navigation--disabled"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
+exports[`VPagination.vue Render component and match snapshot(s) value - 100 1`] = `
+
+<ul class="pagination">
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_left
+      </i>
+    </a>
+  </li>
+  <li>
+    <a href="#!"
+       class="pagination__navigation"
+    >
+      <i class="material-icons icon">
+        chevron_right
+      </i>
+    </a>
+  </li>
+</ul>
+
+`;
+
 exports[`VPagination.vue emits an event when next or previous is clicked 1`] = `
 
 <ul class="pagination">

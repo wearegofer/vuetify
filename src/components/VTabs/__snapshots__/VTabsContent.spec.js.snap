@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTabsContent Render component and match snapshot(s) id - hello-world 1`] = `
+
+<div class="tabs__content"
+     id="hello-world"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) lazy - false 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) lazy - true 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) reverseTransition - false 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) reverseTransition - hello-world 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) reverseTransition - true 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) transition - dialog-transition 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) transition - false 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;
+
+exports[`VTabsContent Render component and match snapshot(s) transition - true 1`] = `
+
+<div class="tabs__content"
+     id="undefined"
+     style="display: none;"
+>
+</div>
+
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VProgressCircular Render component and match snapshot(s) fill - hello-world 1`] = `
+
+<div class="progress-circular"
+     style="height: 32px; width: 32px;"
+>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       height="32"
+       width="32"
+  >
+    <circle fill="transparent"
+            cx="16"
+            cy="16"
+            r="14"
+            stroke-width="4"
+            stroke-dasharray="87.965"
+            stroke-dashoffset="0"
+            class="progress-circular__underlay"
+    >
+    </circle>
+    <circle fill="transparent"
+            cx="16"
+            cy="16"
+            r="14"
+            stroke-width="4"
+            stroke-dasharray="87.965"
+            stroke-dashoffset="87.96459430051421px"
+            class="progress-circular__overlay"
+    >
+    </circle>
+  </svg>
+  <div class="progress-circular__info">
+  </div>
+</div>
+
+`;

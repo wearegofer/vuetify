@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VDivider.js Render component and match snapshot(s) 1`] = `
+
+<hr class="divider">
+
+`;
+
 exports[`VDivider.js should render an inset component and match snapshot 1`] = `
 
 <hr class="divider">

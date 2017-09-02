@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VTabsItem Render component and match snapshot(s) activeClass - hello-world 1`] = `
+
+<li class="tabs__li">
+  <a href="javascript:;"
+     class="tabs__item"
+  >
+  </a>
+</li>
+
+`;
+
+exports[`VTabsItem Render component and match snapshot(s) only defaults 1`] = `
+
+<li class="tabs__li">
+  <a href="javascript:;"
+     class="tabs__item"
+  >
+  </a>
+</li>
+
+`;

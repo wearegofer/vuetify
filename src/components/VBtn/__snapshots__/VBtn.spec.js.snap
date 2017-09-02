@@ -1,5 +1,207 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VBtn.js Render component and match snapshot(s) activeClass - hello-world 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) block - false 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) block - true 1`] = `
+
+<button type="button"
+        class="btn btn--block btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) fab - false 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) fab - true 1`] = `
+
+<button type="button"
+        class="btn btn--floating btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) flat - false 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) flat - true 1`] = `
+
+<button type="button"
+        class="btn btn--flat"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) icon - false 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) icon - true 1`] = `
+
+<button type="button"
+        class="btn btn--icon btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) large - false 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) large - true 1`] = `
+
+<button type="button"
+        class="btn btn--large btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) loading - false 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) loading - true 1`] = `
+
+<button type="button"
+        class="btn btn--loader btn--raised"
+>
+  <div class="btn__content">
+  </div>
+  <span class="btn__loading">
+    <v-progress-circular>
+    </v-progress-circular>
+  </span>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) only defaults 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) outline - false 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) outline - true 1`] = `
+
+<button type="button"
+        class="btn btn--outline btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) ripple - false 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
+exports[`VBtn.js Render component and match snapshot(s) ripple - true 1`] = `
+
+<button type="button"
+        class="btn btn--raised"
+>
+  <div class="btn__content">
+  </div>
+</button>
+
+`;
+
 exports[`VBtn.js should render a <button> tag when using to prop 1`] = `
 
 <button class="btn btn--raised">

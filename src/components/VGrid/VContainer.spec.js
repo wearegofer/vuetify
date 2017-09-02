@@ -1,9 +1,11 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import { VContainer } from '~components/VGrid'
 
 const id = 'container'
 
 test('VContainer', ({ mount, functionalContext }) => {
+  snapshotTests(VContainer)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VContainer, functionalContext())
 

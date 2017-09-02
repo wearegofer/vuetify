@@ -1,8 +1,89 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`VList.js should render a dense component and match snapshot 1`] = `
+exports[`VList.js Render component and match snapshot(s) dense - false 1`] = `
 
 <ul data-uid="1"
+    class="list"
+>
+</ul>
+
+`;
+
+exports[`VList.js Render component and match snapshot(s) dense - true 1`] = `
+
+<ul data-uid="2"
+    class="list list--dense"
+>
+</ul>
+
+`;
+
+exports[`VList.js Render component and match snapshot(s) only defaults 1`] = `
+
+<ul data-uid="0"
+    class="list"
+>
+</ul>
+
+`;
+
+exports[`VList.js Render component and match snapshot(s) subheader - false 1`] = `
+
+<ul data-uid="3"
+    class="list"
+>
+</ul>
+
+`;
+
+exports[`VList.js Render component and match snapshot(s) subheader - true 1`] = `
+
+<ul data-uid="4"
+    class="list list--subheader"
+>
+</ul>
+
+`;
+
+exports[`VList.js Render component and match snapshot(s) threeLine - false 1`] = `
+
+<ul data-uid="5"
+    class="list"
+>
+</ul>
+
+`;
+
+exports[`VList.js Render component and match snapshot(s) threeLine - true 1`] = `
+
+<ul data-uid="6"
+    class="list list--three-line"
+>
+</ul>
+
+`;
+
+exports[`VList.js Render component and match snapshot(s) twoLine - false 1`] = `
+
+<ul data-uid="7"
+    class="list"
+>
+</ul>
+
+`;
+
+exports[`VList.js Render component and match snapshot(s) twoLine - true 1`] = `
+
+<ul data-uid="8"
+    class="list list--two-line"
+>
+</ul>
+
+`;
+
+exports[`VList.js should render a dense component and match snapshot 1`] = `
+
+<ul data-uid="10"
     class="list list--dense"
 >
 </ul>
@@ -11,7 +92,7 @@ exports[`VList.js should render a dense component and match snapshot 1`] = `
 
 exports[`VList.js should render a subheader component and match snapshot 1`] = `
 
-<ul data-uid="2"
+<ul data-uid="11"
     class="list list--subheader"
 >
 </ul>
@@ -20,7 +101,7 @@ exports[`VList.js should render a subheader component and match snapshot 1`] = `
 
 exports[`VList.js should render a threeLine component and match snapshot 1`] = `
 
-<ul data-uid="3"
+<ul data-uid="12"
     class="list list--three-line"
 >
 </ul>
@@ -29,7 +110,7 @@ exports[`VList.js should render a threeLine component and match snapshot 1`] = `
 
 exports[`VList.js should render a twoLine component and match snapshot 1`] = `
 
-<ul data-uid="4"
+<ul data-uid="13"
     class="list list--two-line"
 >
 </ul>
@@ -38,7 +119,7 @@ exports[`VList.js should render a twoLine component and match snapshot 1`] = `
 
 exports[`VList.js should render component and match snapshot 1`] = `
 
-<ul data-uid="0"
+<ul data-uid="9"
     class="list"
 >
 </ul>

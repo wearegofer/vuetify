@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VEditDialog Render component and match snapshot(s) only defaults 1`] = `
+
+<v-menu class="small-dialog">
+  <a href="javascript:;">
+  </a>
+  <div>
+  </div>
+  <div class="small-dialog__actions"
+       style="display: none;"
+  >
+    <v-btn>
+      Cancel
+    </v-btn>
+    <v-btn>
+      Save
+    </v-btn>
+  </div>
+</v-menu>
+
+`;

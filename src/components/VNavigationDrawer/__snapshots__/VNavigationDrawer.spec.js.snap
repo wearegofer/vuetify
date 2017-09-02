@@ -1,5 +1,280 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VNavigationDrawer.js Render component and match snapshot(s) absolute - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) absolute - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--absolute navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) clipped - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) clipped - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--clipped navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) disableRouteWatcher - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) disableRouteWatcher - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) enableResizeWatcher - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) enableResizeWatcher - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) floating - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) floating - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close navigation-drawer--floating"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) height - 100px 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100px;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) miniVariant - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) miniVariant - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close navigation-drawer--mini-variant"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) mobileBreakPoint - 100 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) only defaults 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) permanent - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) permanent - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close navigation-drawer--permanent"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) persistent - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) persistent - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close navigation-drawer--persistent"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) right - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) right - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close navigation-drawer--right"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) temporary - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) temporary - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close navigation-drawer--temporary"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) touchless - false 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
+exports[`VNavigationDrawer.js Render component and match snapshot(s) touchless - true 1`] = `
+
+<aside class="navigation-drawer navigation-drawer--close"
+       style="height: 100%;"
+>
+  <div class="navigation-drawer__border">
+  </div>
+</aside>
+
+`;
+
 exports[`VNavigationDrawer.js should render component and match snapshot 1`] = `
 
 <aside class="navigation-drawer navigation-drawer--close"

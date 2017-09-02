@@ -1,5 +1,384 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VCarousel.js Render component and match snapshot(s) cycle - false 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) cycle - true 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) icon - list 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) interval - 100 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) interval - hello-world 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) leftControlIcon - false 1`] = `
+
+<div class="carousel">
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) leftControlIcon - hello-world 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="hello icon hello-world">
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) leftControlIcon - true 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          true
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) rightControlIcon - false 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) rightControlIcon - hello-world 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="hello icon hello-world">
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) rightControlIcon - true 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          true
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
+exports[`VCarousel.js Render component and match snapshot(s) value - 100 1`] = `
+
+<div class="carousel">
+  <div class="carousel__left">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_left
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__right">
+    <button type="button"
+            class="btn btn--icon btn--raised theme--dark"
+    >
+      <div class="btn__content">
+        <i class="material-icons icon">
+          chevron_right
+        </i>
+      </div>
+    </button>
+  </div>
+  <div class="carousel__controls">
+  </div>
+</div>
+
+`;
+
 exports[`VCarousel.js should render component and match snapshot 1`] = `
 
 <div class="carousel">

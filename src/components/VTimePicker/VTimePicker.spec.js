@@ -1,7 +1,9 @@
 import VTimePicker from '~components/VTimePicker'
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 
 test('VTimePicker.js', ({ mount }) => {
+  snapshotTests(VTimePicker)
+
   it('should accept a value', () => {
     const wrapper = mount(VTimePicker, {
       propsData: {

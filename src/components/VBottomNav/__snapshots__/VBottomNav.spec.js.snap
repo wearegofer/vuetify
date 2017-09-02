@@ -1,5 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`VBottomNav.js Render component and match snapshot(s) absolute - false 1`] = `
+
+<div class="bottom-nav">
+</div>
+
+`;
+
+exports[`VBottomNav.js Render component and match snapshot(s) absolute - true 1`] = `
+
+<div class="bottom-nav bottom-nav--absolute">
+</div>
+
+`;
+
+exports[`VBottomNav.js Render component and match snapshot(s) active - 100 1`] = `
+
+<div class="bottom-nav">
+</div>
+
+`;
+
+exports[`VBottomNav.js Render component and match snapshot(s) active - hello-world 1`] = `
+
+<div class="bottom-nav">
+</div>
+
+`;
+
+exports[`VBottomNav.js Render component and match snapshot(s) only defaults 1`] = `
+
+<div class="bottom-nav">
+</div>
+
+`;
+
+exports[`VBottomNav.js Render component and match snapshot(s) shift - false 1`] = `
+
+<div class="bottom-nav">
+</div>
+
+`;
+
+exports[`VBottomNav.js Render component and match snapshot(s) shift - true 1`] = `
+
+<div class="bottom-nav bottom-nav--shift">
+</div>
+
+`;
+
 exports[`VBottomNav.js should be hidden with a false value 1`] = `
 
 <div class="bottom-nav">

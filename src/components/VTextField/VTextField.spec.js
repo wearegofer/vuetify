@@ -1,7 +1,9 @@
-import { test } from '~util/testing'
+import { test, snapshotTests } from '~util/testing'
 import VTextField from '~components/VTextField'
 
 test('VTextField.js', ({ mount }) => {
+  snapshotTests(VTextField)
+
   it('should render component and match snapshot', () => {
     const wrapper = mount(VTextField)
 
