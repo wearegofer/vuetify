@@ -182,6 +182,7 @@ test('VSelect.js', ({ mount, shallow }) => {
     const wrapper = mount(VSelect, {
       attachToDocument: true,
       propsData: {
+        autocomplete: true,
         items: [1, 2, 3, 4],
         multiple: true
       }
@@ -199,13 +200,14 @@ test('VSelect.js', ({ mount, shallow }) => {
     const wrapper = mount(VSelect, {
       attachToDocument: true,
       propsData: {
+        autocomplete: true,
         items: [1, 2, 3, 4],
         multiple: true
       }
     })
 
     wrapper.vm.searchValue = 2
-    wrapper.trigger('blur')
+    wrapper.vm.blur()
     await wrapper.vm.$nextTick()
 
     expect(wrapper.vm.searchValue).toBe(null)
@@ -216,16 +218,70 @@ test('VSelect.js', ({ mount, shallow }) => {
     const wrapper = mount(VSelect, {
       attachToDocument: true,
       propsData: {
+        autocomplete: true,
         items: ['foo', 'bar'],
         value: 'foo'
       }
     })
 
     wrapper.vm.searchValue = 'bar'
-    wrapper.trigger('blur')
+    wrapper.vm.blur()
     await wrapper.vm.$nextTick()
 
     expect(wrapper.vm.searchValue).toBe('foo')
+    expect('Application is missing <v-app> component.').toHaveBeenTipped()
+  })
+
+  it('should render a disabled input with placeholder', () => {
+    const wrapper = mount(VSelect, {
+      propsData: {
+        placeholder: 'Placeholder'
+      }
+    })
+
+    const input = wrapper.find('input')[0]
+
+    expect(input.hasAttribute('disabled', 'disabled')).toBe(true)
+    expect(input.hasAttribute('placeholder', 'Placeholder')).toBe(true)
+    expect(input.html()).toMatchSnapshot()
+    expect('Application is missing <v-app> component.').toHaveBeenTipped()
+  })
+
+  it('should not display when not autocomplete with placeholder and dirty', () => {
+    const wrapper = mount(VSelect, {
+      propsData: {
+        placeholder: 'Placeholder',
+        items: ['foo'],
+        value: 'foo'
+      }
+    })
+
+    const input = wrapper.find('input')[0]
+
+    expect(input.hasAttribute('style', 'display: none;')).toBe(true)
+    expect(input.html()).toMatchSnapshot()
+    expect('Application is missing <v-app> component.').toHaveBeenTipped()
+  })
+
+  it('should change search input text when value changes', async () => {
+    const wrapper = mount(VSelect, {
+      attachToDocument: true,
+      propsData: {
+        autocomplete: true,
+        placeholder: 'Placeholder',
+        items: ['foo', 'bar'],
+        value: 'foo'
+      }
+    })
+
+    await wrapper.vm.$nextTick()
+
+    expect(wrapper.vm.searchValue).toBe('foo')
+    wrapper.setProps({ value: null })
+
+    await wrapper.vm.$nextTick()
+
+    expect(wrapper.vm.searchValue).toBe(undefined)
     expect('Application is missing <v-app> component.').toHaveBeenTipped()
   })
 })
