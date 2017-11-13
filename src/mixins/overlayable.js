@@ -166,15 +166,10 @@ export default {
       }
     },
     hideScroll () {
-      if (this.$vuetify.breakpoint.mdAndDown) {
-        document.documentElement.classList.add('overflow-y-hidden')
-      } else {
-        window.addEventListener('wheel', this.scrollListener)
-        window.addEventListener('keydown', this.scrollListener)
-      }
+      window.addEventListener('wheel', this.scrollListener)
+      window.addEventListener('keydown', this.scrollListener)
     },
     showScroll () {
-      document.documentElement.classList.remove('overflow-y-hidden')
       window.removeEventListener('wheel', this.scrollListener)
       window.removeEventListener('keydown', this.scrollListener)
     }
